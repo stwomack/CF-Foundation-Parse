@@ -2,11 +2,6 @@
 
 import json
 
-foundation_desc = {"ps2pcf02":"ProdInternal", "ps2pcf01":"Non-ProdSandbox",
-                   "ch3pcf05":"UATExternal", "ps2pcf03":"ProdExternal",
-                   "ch3pcf03":"ProdInternalDR", "ch3pcf04":"PCF System Apps (Jenkins, Artifactory)",
-                   "ch3pcf01":"NonProd Dev/QA/UAT Internal"}
-
 with open('status_orig.json') as data_file:
     data = json.load(data_file)
 
